@@ -79,10 +79,10 @@ initial begin
 	$readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/NTT_INA"  , ntt_pin);
 	$readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/NTT_OUTA" , ntt_pout);
 
-	$readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/CINA"  , cin_a);
-	$readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/CINB" , cin_b);
-	$readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/COUTA"  , cout_a);
-	$readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/COUTB" , cout_b);
+	// $readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/CINA"  , cin_a);
+	// $readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/CINB" , cin_b);
+	// $readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/COUTA"  , cout_a);
+	// $readmemh("C:/Users/cjl25/Desktop/ParamsGenerator/data/COUTB" , cout_b);
 //	$readmemh("C:/Users/cjl25/param_ntt/param_ntt.srcs/sources_1/imports/test_generator/INTT_DIN.txt" , intt_pin);
 //	$readmemh("C:/Users/cjl25/param_ntt/param_ntt.srcs/sources_1/imports/test_generator/INTT_DOUT.txt", intt_pout);
 end
